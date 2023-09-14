@@ -19,7 +19,7 @@ const LogIn = () => {
           <Text style={styles.text}>학번</Text>
           <TextInput style={styles.input} />
         </View>
-        <View style={styles.inputLine}>
+        <View style={[styles.inputLine, {marginBottom: 100}]}>
           <Text style={styles.text}>전공</Text>
           <TextInput style={styles.input} />
         </View>
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: 'bold',
     color: 'black',
-    margin: 50,
+    margin: 100,
   },
   inputContainer: {
     alignItems: 'center',
